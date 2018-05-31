@@ -1,0 +1,500 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+   
+  }
+
+body{
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    display: table-cell;
+    font-size: 24px;
+    margin: auto;
+    display: grid;
+    background: url("../images/light-grey-terrazzo.png");
+}
+
+header{
+    position: relative;
+    background-color: #fff;
+    border-color: #ccc;
+    border: 1px solid #eee;
+   
+ }
+
+section{
+    width: 960px;
+    margin: 0 auto;
+}
+
+ h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    height: 90px;
+    color: #fff;
+    width:  25%;
+    text-align: center;
+    padding: 25px;
+    float: left;
+    font: xx-large;
+    margin-right: 10px;
+ } 
+
+a{
+    text-decoration:   none;
+    color: #777;
+}
+
+ /*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+    text-align: right;
+    font-size: 16px;
+    float: right;
+    margin: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: lightgrey;
+    font: xx-large;
+    
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    padding: 5px;
+    border-right: 4px #777;
+ }
+  
+  /*
+    =============
+    Index content
+    =============*/
+ 
+#maincontent{
+    
+    border: 0px solid #ddd;
+    min-height: calc(93vh - 70px);
+   
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: b0th;
+}
+
+#mainsection{
+    position: relative;
+   
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    padding-left: 30px;
+    padding-right: 20px;    
+    padding-bottom: 20px;
+}
+
+h2{
+    color: #4aaaa5;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font: xx-large;
+  }
+
+  hr{
+      color: #808080;
+      border-width: 2px;
+      border-style: solid;
+  }
+ 
+/* clearfix  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  margin-top: 20px;
+  *zoom: 1;
+}
+
+#myimage{
+    float: left;
+    margin-right: 20px;
+    width:  170px;
+    height: 150px;
+}
+
+p{
+ font-size: 18px;
+ line-height: 30px;
+ word-spacing: 1px;
+}
+
+#secondp{
+    clear: both;
+    margin-top: 20px;
+}
+
+#thirdp{
+    margin-top: 30px;
+}
+
+#footer{
+    margin-top: 0;
+    background-color: #666;
+    height: 50x;
+    color: #4aaaa5;
+    border-top: 8px solid #4aaaa5 ;
+    text-align: center;
+}
+
+#footerp{
+    color:  lightgrey;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+/*
+    =============
+    Contact content
+    =============*/
+
+h3{
+    color:  #777;
+    font-size: 15px;
+    font: bold;
+    padding-top: 15px;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#submit{
+    background:  #4aaaa5;
+    color: #fff;
+    width: 10%;
+    padding: 10px 5px 22px;
+    text-align: center;
+    border: none;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*
+    ================
+    Portfolio content
+    ================*/
+
+ .portfolio_section{
+    float: left;
+}
+
+.img-set1{
+    position: relative;
+  
+   
+}
+
+
+.img1{
+    width: 200px;
+    height: 150px;  
+    position: relative;
+}
+
+.caption1{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+.caption1{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img2{
+    width: 200px;
+    height: 150px;  
+    position: relative;
+    right: -3%;
+}
+
+.caption2{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left: 25.71%;
+}
+
+.img-set2{
+    position: relative;
+    margin-top: 20px;
+  
+   
+}
+.img3{
+    width: 200px;
+    height: 150px;  
+    position: relative;
+    
+}
+
+.caption3{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img4{
+    width: 200px;
+    height: 150px;  
+    position: relative;
+    right: -3%;
+}
+
+
+.caption4{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left:25.71%;
+}
+
+.img-set3{
+    position: relative;
+    margin-top: 20px;
+  
+   
+}
+.img5{
+    width: 200px;
+    height: 150px;  
+    position: relative;
+    
+}
+
+.caption5{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.about_a{
+    color: blue;
+}
+
+/*---------  980 px ----------------------------*/
+
+@media screen and (max-width:980px){
+
+    /*  Header  */
+     
+    header{
+      padding-top:0;
+          
+    }
+
+    header section{
+        width:100%;
+    }
+    h1{
+        margin-left:5%;
+        float: none;
+    }
+
+    #mainsection{
+        float:left;
+        width:65%;
+        margin-left:50px;
+        padding:50px;
+    }
+
+    #mainsection p{
+        padding-left: 0; 
+    } 
+
+    #mainsection img{
+        margin-right: 10px;
+    }
+    
+    /* body  */
+
+    /* portgolio images */
+    #img-set1,
+    #img-set2,
+    #img-set3 {
+        padding:0; 
+        margin:0;
+        width:100%;
+        overflow: auto;     
+        width: 50%;
+        float: left;    
+    }
+    
+    
+
+   
+
+}
+
+/*---------  768 px ----------------------------*/
+
+@media screen and (max-width:768px){
+
+    /*  Header  */
+     
+    header{
+      padding-top:0;
+        
+    }
+
+    header section{
+        width: 100%;
+    }
+
+    h1{
+        margin-left:5%;
+        float: none;
+    }
+
+    #mainsection{
+         width:90%;
+         margin-right:10px auto 10px auto;
+         padding:50px;
+    }
+
+    #mainsection p{
+        padding-left: 0; 
+    } 
+
+    #mainsection img{
+        margin-right: 10px;
+    }
+    
+    /* body  */
+
+    /* portfolio images */
+    #img-set1,
+    #img-set2,
+    #img-set3 {
+        padding:0; 
+        margin:0;
+        width:100%;
+        overflow: auto; 
+        float: left;
+    }
+    
+   
+
+}
+
+/*---------  640 px ----------------------------*/
+
+@media screen and (max-width:640px){
+
+    /*  Header  */
+     
+    header{
+        padding-bottom:20px;
+        position: static; 
+        padding-top:0;
+       
+    }
+
+    header section{
+        width:100%;
+    }
+
+    h1{
+        float: none;
+        margin: 0;
+    }
+
+    nav, nav li, h1
+    {
+       
+        float: none;
+        text-align: center; 
+        width: 100%;
+        
+        
+    }
+
+    #mainsection{
+        width:90%;
+        margin-left: 5%;
+        padding:50px;
+    }
+
+    #mainsection p{
+        margin: 0;
+        padding:0 
+    } 
+
+    #mainsection img{
+        float:none;
+        width:100%;
+        height: auto;
+    }
+    
+    /* body  */
+
+    /* portgolio images */
+    
+    #img-set1,
+    #img-set2,
+    #img-set3 {
+        padding:0; 
+        margin:0;
+        width:100%;
+        overflow: auto; 
+        float: left;
+    }
+  
+
+}
